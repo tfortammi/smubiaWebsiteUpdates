@@ -1,0 +1,28 @@
+.top-buffer {
+    margin-top: 30px;
+}
+
+.left-buffer {
+    margin-left: 10px;
+}
+
+.bottom-buffer {
+    margin-bottom: 20px !important;
+}
+
+.card {
+    transition: ease 2s;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.active-filter {
+    background-color: blue;
+    color: white;
+}

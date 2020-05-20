@@ -1,3 +1,89 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'league_spartanbold';
+    src: url('leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* General Style */
+
+body {
+    background-color: #3e3e3e;
+}
+
+h1 {
+    font-family: 'league_spartanbold';
+    color: white;
+}
+
+.btn {
+    border-color: #3cbeb4;
+    color: #3cbeb4;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 40px;
+}
+
+.btn:hover {
+    background-color: #3cbeb4;
+    border-color: #3cbeb4;
+}
+
+.btn:focus {
+    background-color: #3cbeb4;
+    border-color: #3cbeb4;
+}
+
+.btn:active:hover {
+    background-color: #3cbeb4;
+    border-color: #3cbeb4;
+}
+
+.btn-primary {
+    background-color: #3cbeb4;
+    color: white;
+}
+
+.card {
+    transition: ease 2s;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-box-shadow: 9px 10px 11px -3px rgba(0,0,0,0.22);
+    -moz-box-shadow: 9px 10px 11px -3px rgba(0,0,0,0.22);
+    box-shadow: 9px 10px 11px -3px rgba(0,0,0,0.22);
+}
+
+.card-title {
+    font-weight: 900;
+}
+
+#searchbar table {
+    margin-left: 200px;
+}
+
+@media (max-width:768px) {
+    #searchbar {
+        margin-top: 20px;
+    }
+
+    #searchbar table {
+        margin-left: 0px;
+    }
+
+    .card-deck .btn {
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 170%;
+    }
+}
+
+/* Reusable Components */
+
 .top-buffer {
     margin-top: 30px;
 }
@@ -10,10 +96,6 @@
     margin-bottom: 20px !important;
 }
 
-.card {
-    transition: ease 2s;
-}
-
 .hide {
     display: none;
 }
@@ -23,6 +105,8 @@
 }
 
 .active-filter {
-    background-color: blue;
+    background-color: #3cbeb4;
     color: white;
+    border-color: #3cbeb4;
 }
+

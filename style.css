@@ -20,6 +20,10 @@ h1 {
     color: white;
 }
 
+#reset-btn:focus {
+    color: white;
+}
+
 .btn {
     border-color: #3cbeb4;
     color: #3cbeb4;

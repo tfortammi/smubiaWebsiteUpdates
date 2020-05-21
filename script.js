@@ -3,6 +3,7 @@
 // var cardclasses = ["analytics", "machine-learning", "finance"];
 
 $("#reset-btn").click(function() {
+    $(".active-filter").removeClass("active-filter");
     $(".hide").removeClass("hide");
 })
 
@@ -47,7 +48,6 @@ function search() {
         currentCard = card[i];
 
         if (currentCardText.toUpperCase().indexOf(filter) > -1 || currentCardTitle.toUpperCase().indexOf(filter) > -1) {
-            console.log(currentCardText.toUpperCase(), filter, currentCardText.toUpperCase().indexOf(filter));
         } else {
             card[i].classList.add("hide");
         }
